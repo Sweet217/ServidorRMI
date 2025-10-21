@@ -1,0 +1,54 @@
+[
+  {
+    "id": "nodo1",
+    "nombre": "Servidor 1",
+    "estado": "ACTIVO",
+    "capacidad": 100,
+    "cargaActual": 2,
+    "archivos": [
+      "file1",
+      "file_1761017668981"
+    ],
+    "fallos": 0
+  },
+  {
+    "id": "nodo2",
+    "nombre": "Servidor 2",
+    "estado": "ACTIVO",
+    "capacidad": 100,
+    "cargaActual": 1,
+    "archivos": [
+      "file1"
+    ],
+    "fallos": 0
+  },
+  {
+    "id": "nodo3",
+    "nombre": "Servidor 3",
+    "estado": "ACTIVO",
+    "capacidad": 100,
+    "cargaActual": 1,
+    "archivos": [
+      "file_1761017668981"
+    ],
+    "fallos": 0
+  },
+  {
+    "id": "nodo4",
+    "nombre": "Servidor 4",
+    "estado": "ACTIVO",
+    "capacidad": 100,
+    "cargaActual": 0,
+    "archivos": [],
+    "fallos": 0
+  },
+  {
+    "id": "nodo5",
+    "nombre": "Servidor 5",
+    "estado": "ACTIVO",
+    "capacidad": 100,
+    "cargaActual": 0,
+    "archivos": [],
+    "fallos": 0
+  }
+]

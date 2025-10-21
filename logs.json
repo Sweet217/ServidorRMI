@@ -1,0 +1,152 @@
+[
+  {
+    "id": "log001",
+    "timestamp": "2025-01-20T12:00:00.000Z",
+    "evento": "SISTEMA_INICIALIZADO",
+    "usuarioId": "system",
+    "recurso": "sistema",
+    "nodoId": "nodo1",
+    "resultado": "EXITOSO",
+    "detalles": {},
+    "checksum": "abc123def456ghi789jkl012mno345pqr678stu901vwx234yz"
+  },
+  {
+    "id": "a585ff2c6c7024ff9d18f12fd5ef0061",
+    "timestamp": "2025-10-21T03:33:30.891Z",
+    "evento": "SISTEMA_INICIALIZADO",
+    "usuarioId": "system",
+    "recurso": "sistema",
+    "nodoId": "nodo1",
+    "resultado": "EXITOSO",
+    "detalles": {},
+    "checksum": "c6faba19ccf8969abfe26758e5eefaa980717aaed72042d27a697ff9ee720e6d"
+  },
+  {
+    "id": "943368c99682a7ab24b0ed8f1ad3a875",
+    "timestamp": "2025-10-21T03:33:48.942Z",
+    "evento": "LOGIN_FALLIDO",
+    "usuarioId": "administrador",
+    "recurso": "auth",
+    "nodoId": "nodo1",
+    "resultado": "FALLIDO",
+    "detalles": {
+      "motivo": "Usuario no existe"
+    },
+    "checksum": "c6e813e47edec882feceeda716db20147175ca1aa7ef147a044fa106c5fd30f2"
+  },
+  {
+    "id": "f2001e011e6b52673dadd188cf4ded15",
+    "timestamp": "2025-10-21T03:33:51.711Z",
+    "evento": "LOGIN_FALLIDO",
+    "usuarioId": "Administrador",
+    "recurso": "auth",
+    "nodoId": "nodo1",
+    "resultado": "FALLIDO",
+    "detalles": {
+      "motivo": "Usuario no existe"
+    },
+    "checksum": "6995583f2301b3d9d5f4a9cd75cba46e8a6623007461ecaada7b86ea0772193c"
+  },
+  {
+    "id": "408f9c1732bdbd625f98132151b9259c",
+    "timestamp": "2025-10-21T03:34:00.672Z",
+    "evento": "LOGIN_FALLIDO",
+    "usuarioId": "administrador@sistema.com",
+    "recurso": "auth",
+    "nodoId": "nodo1",
+    "resultado": "FALLIDO",
+    "detalles": {
+      "motivo": "Usuario no existe"
+    },
+    "checksum": "a06e300c11f7a8f92975efdadaf680f5ca72b3024bc56c58c90417ea8f987249"
+  },
+  {
+    "id": "0a9017da9a1275cf0f1f98006f081418",
+    "timestamp": "2025-10-21T03:34:15.706Z",
+    "evento": "LOGIN_FALLIDO",
+    "usuarioId": "admini@sistema.com",
+    "recurso": "auth",
+    "nodoId": "nodo1",
+    "resultado": "FALLIDO",
+    "detalles": {
+      "motivo": "Usuario no existe"
+    },
+    "checksum": "88fd0a71dfe6b850cc7b670149b0c92be3499af1149368a54f38bbd78e42ece3"
+  },
+  {
+    "id": "09c1bd531ffd18871010bebcdb79f8e5",
+    "timestamp": "2025-10-21T03:34:18.178Z",
+    "evento": "LOGIN_EXITOSO",
+    "usuarioId": "admin",
+    "recurso": "auth",
+    "nodoId": "nodo1",
+    "resultado": "EXITOSO",
+    "detalles": {
+      "ip": "::1"
+    },
+    "checksum": "7c381d40b609a22e0a4d094d2a5656e5370cbdcb9e8c6cf4bfbcf14193f3a2eb"
+  },
+  {
+    "id": "4b21df08c11e692702eccb7718d5a9ef",
+    "timestamp": "2025-10-21T03:34:28.982Z",
+    "evento": "ARCHIVO_CREADO",
+    "usuarioId": "admin",
+    "recurso": "file_1761017668981",
+    "nodoId": "nodo1",
+    "resultado": "EXITOSO",
+    "detalles": {
+      "nombre": "dfgdg"
+    },
+    "checksum": "bba72a034b253cb1abad19c4436487a58f37dfe0c18622625e2419e92ee8b1b5"
+  },
+  {
+    "id": "5a20d753f6eae1bc855217ff4f9dd0a1",
+    "timestamp": "2025-10-21T03:34:34.786Z",
+    "evento": "REPLICA_SINCRONIZADA",
+    "usuarioId": "system",
+    "recurso": "file1",
+    "nodoId": "nodo2",
+    "resultado": "EXITOSO",
+    "detalles": {},
+    "checksum": "e9fa11c231b0a8fd021bf0953fd68b91dbf18e90ea864097cffaab88cec51ceb"
+  },
+  {
+    "id": "7ab001db2f0c35055c0db876c89bd42c",
+    "timestamp": "2025-10-21T03:34:34.786Z",
+    "evento": "ARCHIVO_MODIFICADO",
+    "usuarioId": "admin",
+    "recurso": "file1",
+    "nodoId": "nodo1",
+    "resultado": "EXITOSO",
+    "detalles": {
+      "version": 2
+    },
+    "checksum": "8e7405d3c7833f15f8d9af2b5a0172bdc9a18e869b09343ced0453da229adf05"
+  },
+  {
+    "id": "35d31210d958ce1034f3c5dd13c849cc",
+    "timestamp": "2025-10-21T03:35:09.651Z",
+    "evento": "LOGIN_EXITOSO",
+    "usuarioId": "admin",
+    "recurso": "auth",
+    "nodoId": "nodo1",
+    "resultado": "EXITOSO",
+    "detalles": {
+      "ip": "::1"
+    },
+    "checksum": "94c54c7ba84a4e8417b1cd3b0593000ee88b5570c9ff3f0e14ede089a516f123"
+  },
+  {
+    "id": "0897f0a74b4965e32554ee9d57de3edd",
+    "timestamp": "2025-10-21T03:35:34.855Z",
+    "evento": "LOGIN_EXITOSO",
+    "usuarioId": "user1",
+    "recurso": "auth",
+    "nodoId": "nodo1",
+    "resultado": "EXITOSO",
+    "detalles": {
+      "ip": "::1"
+    },
+    "checksum": "e45ed4fdb5e9c700f841ee8e083ea83370e808183cde850e0636c838e92cb084"
+  }
+]

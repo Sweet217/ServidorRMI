@@ -1,0 +1,34 @@
+[
+  {
+    "id": "file1",
+    "nombre": "ejemplo.txt",
+    "contenido": "Contenido de ejemplo del sistema distribuido",
+    "propietarioId": "admin",
+    "nodoId": "nodo1",
+    "version": 2,
+    "replicas": [
+      "nodo2"
+    ],
+    "bloqueado": false,
+    "bloqueadoPor": null,
+    "fechaCreacion": "2025-01-20T12:00:00.000Z",
+    "fechaModificacion": "2025-10-21T03:34:34.786Z",
+    "checksum": "76dc94abc33e04d618fd20f9f51f6989"
+  },
+  {
+    "id": "file_1761017668981",
+    "nombre": "dfgdg",
+    "contenido": "gfdgd",
+    "propietarioId": "admin",
+    "nodoId": "nodo1",
+    "version": 1,
+    "replicas": [
+      "nodo3"
+    ],
+    "bloqueado": false,
+    "bloqueadoPor": null,
+    "fechaCreacion": "2025-10-21T03:34:28.981Z",
+    "fechaModificacion": "2025-10-21T03:34:28.981Z",
+    "checksum": "0eeb18c2d9aaa560e1f91f9c06edce03"
+  }
+]

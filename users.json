@@ -1,0 +1,42 @@
+[
+  {
+    "id": "admin",
+    "nombre": "Carlos",
+    "apellido": "Administrador",
+    "email": "admin@sistema.com",
+    "password": "stored_as_hash",
+    "rol": "admin"
+  },
+  {
+    "id": "user1",
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "email": "juan.perez@empresa.com",
+    "password": "stored_as_hash",
+    "rol": "user"
+  },
+  {
+    "id": "user2",
+    "nombre": "María",
+    "apellido": "González",
+    "email": "maria.gonzalez@empresa.com",
+    "password": "stored_as_hash",
+    "rol": "user"
+  },
+  {
+    "id": "user3",
+    "nombre": "Pedro",
+    "apellido": "Ramírez",
+    "email": "pedro.ramirez@empresa.com",
+    "password": "stored_as_hash",
+    "rol": "user"
+  },
+  {
+    "id": "admin2",
+    "nombre": "Ana",
+    "apellido": "Supervisor",
+    "email": "ana.supervisor@empresa.com",
+    "password": "stored_as_hash",
+    "rol": "admin"
+  }
+]
